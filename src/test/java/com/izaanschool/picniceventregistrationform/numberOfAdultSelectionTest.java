@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class numberOfAdultSelectionTest extends BaseTest {
 
     @Test
-    public  void numberOfAdultSelection(){
+    public  void AdultSelection(){
     //creating picnic event page object
     PicnicEventPage picnicEventPage = new PicnicEventPage(driver, log);
     //Go to reg form Page/url
