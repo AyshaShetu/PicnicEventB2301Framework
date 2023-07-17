@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTestSuite" duration-ms="27364" started-at="2023-07-17T08:33:51Z" finished-at="2023-07-17T08:34:18Z">
+    <groups>
+    </groups>
+    <test name="PositiveLogInTest" duration-ms="27364" started-at="2023-07-17T08:33:51Z" finished-at="2023-07-17T08:34:18Z">
+      <class name="com.izaanschool.picniceventregistrationform.numberOfAdultSelectionTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.izaanschool.picniceventregistrationform.numberOfAdultSelectionTest@68bbe345]" name="setUp" is-config="true" duration-ms="6228" started-at="2023-07-17T08:34:11Z" finished-at="2023-07-17T08:34:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.izaanschool.picniceventregistrationform.numberOfAdultSelectionTest.numberOfAdultSelection()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@79c4715d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="numberOfAdultSelection()[pri:0, instance:com.izaanschool.picniceventregistrationform.numberOfAdultSelectionTest@68bbe345]" name="numberOfAdultSelection" duration-ms="608" started-at="2023-07-17T08:34:17Z" finished-at="2023-07-17T08:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfAdultSelection -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.izaanschool.picniceventregistrationform.numberOfAdultSelectionTest@68bbe345]" name="tearDown" is-config="true" duration-ms="644" started-at="2023-07-17T08:34:18Z" finished-at="2023-07-17T08:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.izaanschool.picniceventregistrationform.numberOfAdultSelectionTest -->
+      <class name="com.izaanschool.picniceventregistrationform.ValidRegistrationTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.izaanschool.picniceventregistrationform.ValidRegistrationTest@a7e666]" name="setUp" is-config="true" duration-ms="6226" started-at="2023-07-17T08:34:03Z" finished-at="2023-07-17T08:34:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.izaanschool.picniceventregistrationform.ValidRegistrationTest.validCredentialTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@79c4715d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCredentialTest()[pri:0, instance:com.izaanschool.picniceventregistrationform.ValidRegistrationTest@a7e666]" name="validCredentialTest" duration-ms="1293" started-at="2023-07-17T08:34:09Z" finished-at="2023-07-17T08:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentialTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.izaanschool.picniceventregistrationform.ValidRegistrationTest@a7e666]" name="tearDown" is-config="true" duration-ms="671" started-at="2023-07-17T08:34:10Z" finished-at="2023-07-17T08:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.izaanschool.picniceventregistrationform.ValidRegistrationTest -->
+      <class name="com.izaanschool.picniceventregistrationform.InvalidRegistrationTests">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.izaanschool.picniceventregistrationform.InvalidRegistrationTests@72b6cbcc]" name="setUp" is-config="true" duration-ms="6906" started-at="2023-07-17T08:33:51Z" finished-at="2023-07-17T08:33:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.izaanschool.picniceventregistrationform.InvalidRegistrationTests.invalidCredentialTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@79c4715d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidCredentialTest()[pri:0, instance:com.izaanschool.picniceventregistrationform.InvalidRegistrationTests@72b6cbcc]" name="invalidCredentialTest" duration-ms="3840" started-at="2023-07-17T08:33:58Z" finished-at="2023-07-17T08:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.izaanschool.picniceventregistrationform.InvalidRegistrationTests@72b6cbcc]" name="tearDown" is-config="true" duration-ms="672" started-at="2023-07-17T08:34:02Z" finished-at="2023-07-17T08:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.izaanschool.picniceventregistrationform.InvalidRegistrationTests -->
+    </test> <!-- PositiveLogInTest -->
+  </suite> <!-- SmokeTestSuite -->
+</testng-results>
