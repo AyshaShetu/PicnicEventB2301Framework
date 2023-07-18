@@ -26,7 +26,7 @@ public class InvalidRegistrationTests extends BaseTest {
 
 		log.info("Registration unsuccessful");
 
-//    ***********need to work on ************
+//    **********need to work on ************
 		// wait for error message
 //		registrationPage.waitForErrorMessage();
 //		String message = registrationPage.getErrorMessageText();
