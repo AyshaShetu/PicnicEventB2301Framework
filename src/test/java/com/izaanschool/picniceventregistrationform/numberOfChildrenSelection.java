@@ -14,7 +14,7 @@ public class numberOfChildrenSelection extends BaseTest {
         picnicEventPage.openPage() ;
 
         //select no of adult using index no.3 and get the ext
-        String NumberOfChildren = picnicEventPage.AdultSelectionDropDown();
+        String NumberOfChildren = picnicEventPage.childrenSelectionDropDown();
         System.out.println("I select : " + NumberOfChildren);
         Assert.assertEquals(NumberOfChildren, "1");
         System.out.println("***TEST PASSED AND ASSERTED***");
