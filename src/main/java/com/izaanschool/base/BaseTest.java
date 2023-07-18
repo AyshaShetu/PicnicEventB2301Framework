@@ -39,7 +39,7 @@ public class BaseTest {
 
 		// This sleep here is for instructor only. Students don't need this here
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

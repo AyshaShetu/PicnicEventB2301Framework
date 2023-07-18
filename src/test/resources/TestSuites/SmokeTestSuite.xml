@@ -7,8 +7,8 @@
 		<classes>
 			<class name= "com.izaanschool.picniceventregistrationform.numberOfAdultSelectionTest"/>
 			<class name= "com.izaanschool.picniceventregistrationform.ValidRegistrationTest" />
-			<class name= "com.izaanschool.picniceventregistrationform.numberOfAdultSelectionTest"></class>
-			<class name= "com.izaanschool.picniceventregistrationform.InvalidRegistrationTests"></class>
+			<class name= "com.izaanschool.picniceventregistrationform.numberOfChildrenSelection" />
+			<class name= "com.izaanschool.picniceventregistrationform.InvalidRegistrationTests" />
 		</classes>
 
 	</test>
