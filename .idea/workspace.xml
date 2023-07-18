@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="493af706-4b73-4697-b4a5-80757bc6d5ee" name="Changes" comment="test passed. assertion">
+    <list default="true" id="493af706-4b73-4697-b4a5-80757bc6d5ee" name="Changes" comment="corrected and fixed. but still confused about naming">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/izaanschool/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/izaanschool/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/izaanschool/picniceventregistrationform/InvalidRegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/izaanschool/picniceventregistrationform/InvalidRegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/izaanschool/picniceventregistrationform/ValidRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/izaanschool/picniceventregistrationform/ValidRegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/izaanschool/page/PicnicEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/izaanschool/page/PicnicEventPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/izaanschool/page/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/izaanschool/page/RegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/izaanschool/picniceventregistrationform/numberOfChildrenSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/izaanschool/picniceventregistrationform/numberOfChildrenSelection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestSuites/SmokeTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestSuites/SmokeTestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/izaanschool/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/izaanschool/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/izaanschool/page/PicnicEventPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/izaanschool/page/PicnicEventPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/izaanschool/page/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/izaanschool/page/RegistrationPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestSuites/SmokeTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestSuites/SmokeTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/izaanschool/picniceventregistrationform/ValidRegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/izaanschool/picniceventregistrationform/ValidRegistrationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/izaanschool/picniceventregistrationform/numberOfAdultSelectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/izaanschool/picniceventregistrationform/numberOfAdultSelectionTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/izaanschool/picniceventregistrationform/numberOfChildrenSelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/izaanschool/picniceventregistrationform/numberOfChildrenSelection.class" afterDir="false" />
     </list>
@@ -62,29 +62,11 @@
       <recent name="C:\Users\ashet\selenium\PicnicEventB2301Framework\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/ashet/selenium/PicnicEventB2301Framework/src/test/resources/TestSuites/SmokeTestSuite.xml">
+  <component name="RunManager" selected="TestNG.numberOfChildrenSelection">
     <configuration name="C:/Users/ashet/selenium/PicnicEventB2301Framework/src/test/resources/TestSuites/SmokeTestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PicnicEventB2301Framework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/TestSuites/SmokeTestSuite.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvalidRegistrationTests.invalidCredentialTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PicnicEventB2301Framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.izaanschool.picniceventregistrationform.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.izaanschool.picniceventregistrationform" />
-      <option name="MAIN_CLASS_NAME" value="com.izaanschool.picniceventregistrationform.InvalidRegistrationTests" />
-      <option name="METHOD_NAME" value="invalidCredentialTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -109,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidRegistrationTest.validRegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="numberOfAdultSelectionTest.AdultSelection" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PicnicEventB2301Framework" />
       <extension name="coverage">
         <pattern>
@@ -118,9 +100,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.izaanschool.picniceventregistrationform" />
-      <option name="MAIN_CLASS_NAME" value="com.izaanschool.picniceventregistrationform.ValidRegistrationTest" />
-      <option name="METHOD_NAME" value="validRegistrationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.izaanschool.picniceventregistrationform.numberOfAdultSelectionTest" />
+      <option name="METHOD_NAME" value="AdultSelection" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="numberOfChildrenSelection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PicnicEventB2301Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.izaanschool.picniceventregistrationform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.izaanschool.picniceventregistrationform" />
+      <option name="MAIN_CLASS_NAME" value="com.izaanschool.picniceventregistrationform.numberOfChildrenSelection" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/ashet/selenium/PicnicEventB2301Framework/src/test/resources/TestSuites/SmokeTestSuite.xml" />
+        <item itemvalue="TestNG.numberOfChildrenSelection" />
         <item itemvalue="TestNG.numberOfChildrenSelection.ChildrenSelection" />
-        <item itemvalue="TestNG.InvalidRegistrationTests.invalidCredentialTest" />
+        <item itemvalue="TestNG.C:/Users/ashet/selenium/PicnicEventB2301Framework/src/test/resources/TestSuites/SmokeTestSuite.xml" />
+        <item itemvalue="TestNG.numberOfAdultSelectionTest.AdultSelection" />
         <item itemvalue="TestNG.ValidRegistrationTest.validCredentialTest" />
-        <item itemvalue="TestNG.ValidRegistrationTest.validRegistrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -192,15 +191,70 @@
       <option name="project" value="LOCAL" />
       <updated>1689584421512</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test passed. no assertion. bug">
+      <created>1689642955276</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689642955276</updated>
+    </task>
+    <task id="LOCAL-00006" summary="asserted">
+      <created>1689643034974</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689643034974</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test passed. no assertion">
+      <created>1689643109465</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689643109465</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test passed. no assertion. not getting email confirmation">
+      <created>1689643225328</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689643225328</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test passed. no assertion. getting email confirmation">
+      <created>1689713130787</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689713130787</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test passed. no asserted">
+      <created>1689713257225</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689713257225</updated>
+    </task>
+    <task id="LOCAL-00011" summary="corrected and fixed. but still confused about naming">
+      <created>1689713367757</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689713367757</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="not working" />
     <MESSAGE value="test passed" />
-    <MESSAGE value="test passed. no assertion" />
     <MESSAGE value="test passed. assertion" />
-    <option name="LAST_COMMIT_MESSAGE" value="test passed. assertion" />
+    <MESSAGE value="test passed. no assertion. bug" />
+    <MESSAGE value="asserted" />
+    <MESSAGE value="test passed. no assertion" />
+    <MESSAGE value="test passed. no assertion. not getting email confirmation" />
+    <MESSAGE value="test passed. no assertion. getting email confirmation" />
+    <MESSAGE value="test passed. no asserted" />
+    <MESSAGE value="corrected and fixed. but still confused about naming" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected and fixed. but still confused about naming" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PicnicEventB2301Framework$numberOfAdultSelectionTest_numberOfAdultSelection.ic" NAME="numberOfAdultSelectionTest.numberOfAdultSelection Coverage Results" MODIFIED="1689576392027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

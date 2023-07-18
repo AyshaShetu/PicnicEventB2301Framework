@@ -45,7 +45,7 @@ public class RegistrationPage extends BasePageObject {
 
 
 	public void registerWithValidCredentials(String fullName, String email, String phoneNumber, String numOfadults, String numOfChildren) {
-		log.info("Executing Valid Registration with Full Name: [" + fullName + "] , Email: [" + email + "] , Phone Number: [" + phoneNumber + "] , Number of Adults: [" + numOfadults + "] and Number of Children (under 12 years old): [ + numOfChildren + ]");
+		log.info("Executing Valid Registration with Full Name: [" + fullName + "] , Email: [" + email + "] , Phone Number: [" + phoneNumber + "] , Number of Adults: [" + numOfadults + "] and Number of Children (under 12 years old): [" + numOfChildren + "]");
 		type(fullName, fullnameFieldLocator);
 		type(email, emailFieldLocator);
 		type(phoneNumber, phoneNumberFieldLocator);

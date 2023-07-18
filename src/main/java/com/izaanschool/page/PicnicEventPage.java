@@ -38,22 +38,22 @@ public class PicnicEventPage extends BasePageObject {
 		return new RegistrationPage(driver, log);
 	}
 
-	public String AdultSelectionDropDown() {
+	public String AdultSelectionDropDown(String x) { // parameter (tried string) not to hardcode value
 		//Selecting the drop-down element as an instance of the Select class.
 		Select Adult = new Select(find(adultFieldLocator));
 		// select 2 adults
-		Adult.selectByValue("2");
+		Adult.selectByValue(x);
 		// # Adult.selectByIndex(2);selectByVisibleText("1"); also work
 		String totalAdult= Adult.getFirstSelectedOption().getText();
 		log.info(totalAdult+ " is selected");
 		return totalAdult;
 	}
 
-	public String childrenSelectionDropDown() {
+	public String childrenSelectionDropDown(int x) {  // parameter (tried int) not to hardcode value
 		//Selecting the drop-down element as an instance of the Select class.
 		Select Children = new Select(find(childrenFieldLocator));
 		// select 1 Children
-		Children.selectByValue("1");
+		Children.selectByIndex(x);
 		// #Children.selectByIndex(2); selectByVisibleText("1"); also work
 		String totalChildren= Children.getFirstSelectedOption().getText();
 		log.info(totalChildren+ " is selected");

@@ -2,7 +2,7 @@
 
 <suite name="SmokeTestSuite" verbose="1">
 	
-	<test name="com.izaanschool.picniceventregistrationform">
+	<test name="picniceventregistrationform">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name= "com.izaanschool.picniceventregistrationform.numberOfAdultSelectionTest"/>
