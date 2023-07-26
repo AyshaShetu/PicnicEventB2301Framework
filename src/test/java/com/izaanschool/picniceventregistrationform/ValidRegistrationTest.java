@@ -17,7 +17,7 @@ public class ValidRegistrationTest extends BaseTest {
         // registration page object create to use method from Registration Page
         RegistrationPage registrationPage = new RegistrationPage(driver, log);
         // putting valid credential and click submit button inside from registerWithValidCredentials()
-        registrationPage.registerWithValidCredentials("Aysha", "afshetu@gmail.com", "2146036884", "2", "2");
+        registrationPage.registerWithValidCredentials("Ash", "abc@gmail.com", "0123456789", "2", "2");
         registrationPage.clickOkButtoninAlertmessage();
 
         log.info("Registration successful");

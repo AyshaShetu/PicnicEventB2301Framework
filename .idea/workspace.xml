@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="493af706-4b73-4697-b4a5-80757bc6d5ee" name="Changes" comment="corrected and fixed. but still confused about naming">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/izaanschool/page/PicnicEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/izaanschool/page/PicnicEventPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/izaanschool/page/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/izaanschool/page/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/izaanschool/picniceventregistrationform/numberOfChildrenSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/izaanschool/picniceventregistrationform/numberOfChildrenSelection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/izaanschool/page/PicnicEventPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/izaanschool/page/PicnicEventPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/izaanschool/page/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/izaanschool/page/RegistrationPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestSuites/SmokeTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestSuites/SmokeTestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/izaanschool/picniceventregistrationform/ValidRegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/izaanschool/picniceventregistrationform/ValidRegistrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/izaanschool/picniceventregistrationform/numberOfAdultSelectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/izaanschool/picniceventregistrationform/numberOfAdultSelectionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/izaanschool/picniceventregistrationform/numberOfChildrenSelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/izaanschool/picniceventregistrationform/numberOfChildrenSelection.class" afterDir="false" />
+    <list default="true" id="493af706-4b73-4697-b4a5-80757bc6d5ee" name="Changes" comment="test passed. asserted">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/izaanschool/picniceventregistrationform/ValidRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/izaanschool/picniceventregistrationform/ValidRegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689713367757</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test passed. asserted">
+      <created>1689721200714</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689721200714</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,7 +252,8 @@
     <MESSAGE value="test passed. no assertion. getting email confirmation" />
     <MESSAGE value="test passed. no asserted" />
     <MESSAGE value="corrected and fixed. but still confused about naming" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected and fixed. but still confused about naming" />
+    <MESSAGE value="test passed. asserted" />
+    <option name="LAST_COMMIT_MESSAGE" value="test passed. asserted" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PicnicEventB2301Framework$numberOfAdultSelectionTest_numberOfAdultSelection.ic" NAME="numberOfAdultSelectionTest.numberOfAdultSelection Coverage Results" MODIFIED="1689576392027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
